@@ -1,6 +1,6 @@
 # Lock algorithms
-This repository contains a set of locking algorithms implemented with ```pthreads``` in C.
-Additionally, each algorithm is analyzed with respect to three fundamental properties that a good Lock algorithm should satisfy:
+This repository contains an implementation of a trivial thread-locking algorithms with ```pthreads``` in C.
+Additionally, the algorithm is analyzed with respect to three fundamental properties that a good Lock algorithm should satisfy:
 <ul>
     <li><b>Mutual Exclusion</b>: Critical sections of different threads do not overlap.</li>
     <li><b>Deadlock Freedom</b>:
