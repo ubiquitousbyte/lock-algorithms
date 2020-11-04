@@ -1,4 +1,4 @@
-# Lock algorithms
+# LockOne algorithm
 This repository contains an implementation of a trivial thread-locking algorithms with ```pthreads``` in C.
 Additionally, the algorithm is analyzed with respect to three fundamental properties that a good Lock algorithm should satisfy:
 <ul>
@@ -13,7 +13,6 @@ Additionally, the algorithm is analyzed with respect to three fundamental proper
     </li>
 </ul>
 
-## LockOne algorithm
 Implementation can be found [here](LockOne.c).
 This algorithm is usable with just two threads, <b><i>A</i></b> and <b><i>B</i></b>. 
 Each thread has a unique integral identifier - either 0 or 1.  
